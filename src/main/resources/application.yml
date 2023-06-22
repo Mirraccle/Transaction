@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/transaction
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+application:
+  jwt:
+    secret: RVRiODJyOWs2a0RIWGZSbWFLNVFrVWQ0eWZHQ2pXZGUzNkI5UWFoZUNndWp4RDdQWXlQdUZQQUg3NjgzeTRMQzJuNlBuTVFrZ1pTVEtobnM3UlZyRmdHVTVxUWVKY0tyTEpHcHVBSEprVlRrMmhSdENwUVkySzhHSHB4eUVwd3k4VU5qZzNmM1BMdFJaMzl0TDhwM216RlU1S1hKd2twYnNiRmNUWExTM3ZYNlFaNFltVHlZNWozdTVaYlVXSDZyVjVjYjg2aHl0UVZCSHB6ZXZrN3d6NkRyOEhTMnREV1VlWHFhNFlFODMyQk05bTVUTW1qUWQ0UlNCZ2s1QVNMeA==
+    expired: 3600000
